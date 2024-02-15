@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Argoverse HD"
 PROJECT_NAME_FULL: str = "Argoverse-HD"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -72,7 +72,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
     "Kaggle": "https://www.kaggle.com/datasets/mtlics/argoversehd",
 }
 
-CITATION_URL: Optional[str] = None
+CITATION_URL: Optional[str] = "https://github.com/mtli/sAP?tab=readme-ov-file#citation"
 AUTHORS: Optional[List[str]] = ["Mengtian Li", "Yu-Xiong Wang", "Deva Ramanan"]
 AUTHORS_CONTACTS: Optional[List[str]] = ["martinli.work@gmail.com", "deva@cs.cmu.edu"]
 
