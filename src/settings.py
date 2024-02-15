@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.MIT()
+LICENSE: License = License.Custom(source_url="https://www.argoverse.org/about.html#terms-of-use")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Automotive()]
 CATEGORY: Category = Category.SelfDriving()
 
