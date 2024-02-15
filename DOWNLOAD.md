@@ -1,6 +1,6 @@
 Dataset **Argoverse HD** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/4/5/0w/ucAHBXzifTiNpMilyo1SXb3jCgcRv1eqxbnR9N0W45zsPnwvoo9k25po5fkXHPFRrgbKecU9wHp8jhbyD2vO95n3JZafC3FyJmQi5gtjxDCSKqaxqwd2dlrWtaZa.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
